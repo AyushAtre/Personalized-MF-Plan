@@ -1,15 +1,16 @@
 # Personalized-MF-Plan
-**Overview
+
+# Overview
 This project analyzes the closing prices of NIFTY50 companies, identifies low-risk, high-return stocks, and simulates future investment growth using systematic investment plans (SIP).
 The goal is to build a smart stock-based portfolio inspired by mutual fund strategies.
 
-**Technologies Used
+# Technologies Used
 Python (Pandas, NumPy, Matplotlib)
 Data Analysis
 Data Visualization
 Financial Metrics Calculation
 
-**Project Workflow
+# Project Workflow
 Data Cleaning
 Converted date column to datetime format.
 Handled missing data using forward-fill.
@@ -39,11 +40,11 @@ Calculated expected future values based on average portfolio ROI.
 Risk & Return Comparison
 Compared mutual-fund-style stocks vs fastest growth rate stocks for both risk (volatility) and expected return (ROI).
 
-**Conclusion:
+# Conclusion:
 This project demonstrates how data-driven stock selection and portfolio simulation can help investors make smarter decisions.
 By combining risk (volatility) and return (ROI) metrics, it is possible to create safer and more profitable investment strategies — similar to real-world mutual funds.
 
-**Future Improvements
+# Future Improvements
 Add Sharpe Ratio for risk-adjusted return comparison.
 Implement Modern Portfolio Theory (MPT) for optimized weights.
 Expand analysis to 6 months or 1 year data.
